@@ -54,4 +54,4 @@ def update_title2(): # Update the title IF option 2 was picked.
     
     while True:
         time_elapsed = strftime('%H:%M:%S', gmtime(time() - start))
-        system(f'title PROGRAM_NAME ^| Metric 2: {beautify(metric2
+        system(f'title PROGRAM_NAME ^| Metric 2: {beautify(metric2)}')
